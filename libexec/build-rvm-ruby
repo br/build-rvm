@@ -1,8 +1,7 @@
 #!/bin/bash
 
-nm_ruby="1.9.3"
-ver_bundler="~> 1.2.5"
-shome=$(pwd)
+nm_ruby="$1"; shift
+ver_bundler="$1"; shift
 
 if [[ "$EUID" = 0 ]]; then
   source /etc/profile.d/rvm.sh
