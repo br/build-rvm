@@ -3,6 +3,8 @@
 nm_ruby="$1"; shift
 ver_bundler="$1"; shift
 
+shome=$(pwd)
+PATH="$shome/sbin:$PATH"
 PATH="$PATH:/usr/local/rvm/bin:$HOME/.rvm/bin"
 
 rvm install "$nm_ruby" --disable-binary --skip-gemsets

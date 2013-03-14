@@ -1,0 +1,3 @@
+#!/bin/bash
+
+exec "$(type -a curl | grep '^curl is /' | tail -n +2 | head -1 | awk '{print $NF}')" -s -S "$@"
