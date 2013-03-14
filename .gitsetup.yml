@@ -1,0 +1,4 @@
+---
+remotes:
+  primary: git@github.com:destructuring/build-rvm
+  secondary: git@bitbucket.org:destructuring/build-rvm
