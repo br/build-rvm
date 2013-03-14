@@ -1,9 +1,9 @@
 Build this with a clean VM every time, with a clean root user
 
-For global installs:
+For global installs from scratch:
 
-    make global
+    make binary
 
-For local installs (not tested):
+For global installs from archives:
 
-    make local
+    make install

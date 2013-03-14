@@ -10,4 +10,3 @@ PATH="$PATH:/usr/local/rvm/bin:$HOME/.rvm/bin"
 rvm install "$nm_ruby" --disable-binary --skip-gemsets
 rvm prepare "$nm_ruby" --install
 rvm uninstall "$nm_ruby"
-$shome/libexec/install-rvm-ruby "$nm_ruby" "$ver_bundler"
