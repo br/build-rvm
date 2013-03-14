@@ -2,8 +2,14 @@
 
 nm_ruby="1.9.3"
 ver_bundler="~> 1.2.5"
-
 shome=$(pwd)
+
+if [[ "$EUID" = 0 ]]; then
+  source /etc/profile.d/rvm.sh
+else
+  source ~/.rvm/scripts/rvm
+fi
+
 rvm uninstall "$nm_ruby" || true
 rvm install "$nm_ruby" --disable-binary --skip-gemsets
 echo yes | rvm-exec "$nm_ruby" rvm gemset delete global || true
