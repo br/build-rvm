@@ -1,0 +1,7 @@
+#!/bin/bash
+
+ver_rvm="1.18.19"
+
+shome=$(pwd)
+export rvm_ignore_dotfiles=yes
+$shome/vendor/projects/rvm/rvm-installer --version $ver_rvm --without-gems="rvm rubygems-bundler"
