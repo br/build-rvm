@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ver_rvm="1.18.19"
+ver_rvm="1.18.21"
 ver_rubygems="1.8.25"
 
 shome=$(pwd)
