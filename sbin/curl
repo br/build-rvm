@@ -8,6 +8,6 @@ nm_download="$(basename $pth_download)"
 if [[ -f "$shome/vendor/cache/rvm/$nm_download" ]]; then
   rsync -ia "$shome/vendor/cache/rvm/$nm_download" "$pth_download"
 else
-  echo -- XXX curl "$@"
+  echo -- XXX curl "$@" 1>&2
   exec "$(type -a curl | grep '^curl is /' | tail -n +2 | head -1 | awk '{print $NF}')" -s -S "$@"
 fi
