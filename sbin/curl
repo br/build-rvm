@@ -2,10 +2,21 @@
 
 shome="$(cd -P -- "$(dirname -- "$BASH_SOURCE")/.." && pwd -P)"
 
+nm_download=""
 pth_download="$(echo -- curl "$@" | perl -ne 'm{-o\s+(\S+)} && print "$1"')"
-nm_download="$(basename $pth_download)"
+if [[ -n "$pth_download" ]]; then
+  nm_download="$(basename $pth_download)"
+fi
 
-if [[ -f "$shome/vendor/cache/rvm/$nm_download" ]]; then
+if [[ -z "$nm_download" ]]; then
+  url_download="$(echo -- curl "$@" | perl -ne 'm{(https?://\S+)} && print "$1"' | perl -pe 's{\W}{_}g')"
+  if [[ -f "$shome/vendor/cache/rvm/$url_download" ]]; then
+    cat "$shome/vendor/cache/rvm/$url_download"
+  else
+    echo -- XXX $url_download curl "$@" 1>&2
+    exec "$(type -a curl | grep '^curl is /' | tail -n +2 | head -1 | awk '{print $NF}')" "$@"
+  fi
+elif [[ -f "$shome/vendor/cache/rvm/$nm_download" ]]; then
   rsync -ia "$shome/vendor/cache/rvm/$nm_download" "$pth_download"
 else
   echo -- XXX curl "$@" 1>&2

@@ -1,0 +1,875 @@
+[
+  {
+    "name": "v2.0.3",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v2.0.3",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v2.0.3",
+    "commit": {
+      "sha": "0c8612453cd3a442b13c27805f21604b6ac04f7a",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/0c8612453cd3a442b13c27805f21604b6ac04f7a"
+    }
+  },
+  {
+    "name": "v2.0.2",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v2.0.2",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v2.0.2",
+    "commit": {
+      "sha": "f67a0e929e0a8a625ddb7f598caa04a2bd6dcf02",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/f67a0e929e0a8a625ddb7f598caa04a2bd6dcf02"
+    }
+  },
+  {
+    "name": "v2.0.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v2.0.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v2.0.1",
+    "commit": {
+      "sha": "af4ffa745915b35cc8a56b8eb5504a1d2c3cbe27",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/af4ffa745915b35cc8a56b8eb5504a1d2c3cbe27"
+    }
+  },
+  {
+    "name": "v2.0.0.rc.2",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v2.0.0.rc.2",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v2.0.0.rc.2",
+    "commit": {
+      "sha": "ebeb0c978c24a2c253e823aac041c87103670e1d",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/ebeb0c978c24a2c253e823aac041c87103670e1d"
+    }
+  },
+  {
+    "name": "v2.0.0.rc.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v2.0.0.rc.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v2.0.0.rc.1",
+    "commit": {
+      "sha": "3ec5010022e73feeb0c0bc9b8fb7a6425fad4d70",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/3ec5010022e73feeb0c0bc9b8fb7a6425fad4d70"
+    }
+  },
+  {
+    "name": "v2.0.0.preview2.2",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v2.0.0.preview2.2",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v2.0.0.preview2.2",
+    "commit": {
+      "sha": "abb9334ed649b34b5450e79dcf2695dcc60f0de7",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/abb9334ed649b34b5450e79dcf2695dcc60f0de7"
+    }
+  },
+  {
+    "name": "v2.0.0.preview2.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v2.0.0.preview2.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v2.0.0.preview2.1",
+    "commit": {
+      "sha": "082a84a037a04471b831e8d8c8ba5d889227bb94",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/082a84a037a04471b831e8d8c8ba5d889227bb94"
+    }
+  },
+  {
+    "name": "v2.0.0.preview2",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v2.0.0.preview2",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v2.0.0.preview2",
+    "commit": {
+      "sha": "384a8802a89edae38a39d4037bb5d37508b3d32f",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/384a8802a89edae38a39d4037bb5d37508b3d32f"
+    }
+  },
+  {
+    "name": "v2.0.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v2.0.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v2.0.0",
+    "commit": {
+      "sha": "8241846143b57f72c75ecc50d113dd41c8c6a226",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/8241846143b57f72c75ecc50d113dd41c8c6a226"
+    }
+  },
+  {
+    "name": "v1.8.25",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.25",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.25",
+    "commit": {
+      "sha": "d2d03a34a94d7d99284b52d3c08563e510487b14",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/d2d03a34a94d7d99284b52d3c08563e510487b14"
+    }
+  },
+  {
+    "name": "v1.8.24",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.24",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.24",
+    "commit": {
+      "sha": "1c6c0dd04341443ab046a2fc88c62bf64b72f5e6",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/1c6c0dd04341443ab046a2fc88c62bf64b72f5e6"
+    }
+  },
+  {
+    "name": "v1.8.23",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.23",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.23",
+    "commit": {
+      "sha": "5ff4c820a6538a10a962b1c4b899397f15ee8377",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/5ff4c820a6538a10a962b1c4b899397f15ee8377"
+    }
+  },
+  {
+    "name": "v1.8.22",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.22",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.22",
+    "commit": {
+      "sha": "b00a56b4a468fac6072e6f5aad729e00e2b7099a",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/b00a56b4a468fac6072e6f5aad729e00e2b7099a"
+    }
+  },
+  {
+    "name": "v1.8.21",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.21",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.21",
+    "commit": {
+      "sha": "2637b4b752949bb7ecc93c649c89ac9240c5f889",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/2637b4b752949bb7ecc93c649c89ac9240c5f889"
+    }
+  },
+  {
+    "name": "v1.8.20",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.20",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.20",
+    "commit": {
+      "sha": "dab39e23a2a232eb57253aea737e87fcddb4a9b1",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/dab39e23a2a232eb57253aea737e87fcddb4a9b1"
+    }
+  },
+  {
+    "name": "v1.8.19",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.19",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.19",
+    "commit": {
+      "sha": "d9e8b93d7300186b2a61adcd50cc1d95b216dd5c",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/d9e8b93d7300186b2a61adcd50cc1d95b216dd5c"
+    }
+  },
+  {
+    "name": "v1.8.18",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.18",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.18",
+    "commit": {
+      "sha": "3316bdd507c18bf7b4202a9bd547936537003a3d",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/3316bdd507c18bf7b4202a9bd547936537003a3d"
+    }
+  },
+  {
+    "name": "v1.8.17",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.17",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.17",
+    "commit": {
+      "sha": "bfa5a97c4a80a862e35b3e1ac8e43fc1cc253f89",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/bfa5a97c4a80a862e35b3e1ac8e43fc1cc253f89"
+    }
+  },
+  {
+    "name": "v1.8.16",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.16",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.16",
+    "commit": {
+      "sha": "ed92ff855921af0852310b5d412ad15e39576f88",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/ed92ff855921af0852310b5d412ad15e39576f88"
+    }
+  },
+  {
+    "name": "v1.8.15",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.15",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.15",
+    "commit": {
+      "sha": "0034e05324c5c62fd37e55464dac9b371b9210e3",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/0034e05324c5c62fd37e55464dac9b371b9210e3"
+    }
+  },
+  {
+    "name": "v1.8.14",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.14",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.14",
+    "commit": {
+      "sha": "77212cacdd5bf36dc245a77b1ac2ab9288fd7a93",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/77212cacdd5bf36dc245a77b1ac2ab9288fd7a93"
+    }
+  },
+  {
+    "name": "v1.8.13",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.13",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.13",
+    "commit": {
+      "sha": "25591dc81688b45193b6bfc644eb90182ed57b78",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/25591dc81688b45193b6bfc644eb90182ed57b78"
+    }
+  },
+  {
+    "name": "v1.8.12",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.12",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.12",
+    "commit": {
+      "sha": "8abe175f7e27409ac32ebd3af1efc8fd4682d567",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/8abe175f7e27409ac32ebd3af1efc8fd4682d567"
+    }
+  },
+  {
+    "name": "v1.8.11",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.11",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.11",
+    "commit": {
+      "sha": "795290db246685185e62a3be848c67c24ffa8e50",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/795290db246685185e62a3be848c67c24ffa8e50"
+    }
+  },
+  {
+    "name": "v1.8.10",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.10",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.10",
+    "commit": {
+      "sha": "de88f74f29c4e21f67ed41c083d0974b199c3e8a",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/de88f74f29c4e21f67ed41c083d0974b199c3e8a"
+    }
+  },
+  {
+    "name": "v1.8.9",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.9",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.9",
+    "commit": {
+      "sha": "dd8e55359c595b18c23c07e324ceddf44cace5e5",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/dd8e55359c595b18c23c07e324ceddf44cace5e5"
+    }
+  },
+  {
+    "name": "v1.8.8",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.8",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.8",
+    "commit": {
+      "sha": "c1573aff797fec10cf14238fca151ba6e10d7882",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/c1573aff797fec10cf14238fca151ba6e10d7882"
+    }
+  },
+  {
+    "name": "v1.8.7",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.7",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.7",
+    "commit": {
+      "sha": "ad0b803fd4c2c38bfdae034b585abc1c3a7f835a",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/ad0b803fd4c2c38bfdae034b585abc1c3a7f835a"
+    }
+  },
+  {
+    "name": "v1.8.6",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.6",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.6",
+    "commit": {
+      "sha": "b86a9335144a5ae0226d658daf7a41e36728d87c",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/b86a9335144a5ae0226d658daf7a41e36728d87c"
+    }
+  },
+  {
+    "name": "v1.8.5",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.5",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.5",
+    "commit": {
+      "sha": "137c80f1ba5371655df86d77599744ed729fc706",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/137c80f1ba5371655df86d77599744ed729fc706"
+    }
+  },
+  {
+    "name": "v1.8.4",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.4",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.4",
+    "commit": {
+      "sha": "3b87837698838bc5378458559cedd46b3b37401a",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/3b87837698838bc5378458559cedd46b3b37401a"
+    }
+  },
+  {
+    "name": "v1.8.3",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.3",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.3",
+    "commit": {
+      "sha": "dc9137961307ddef24cfd866c6dcde281780c8de",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/dc9137961307ddef24cfd866c6dcde281780c8de"
+    }
+  },
+  {
+    "name": "v1.8.2",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.2",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.2",
+    "commit": {
+      "sha": "ff140d5bbea2e8c9f95eda8c4d70a0ed6b2ad6d4",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/ff140d5bbea2e8c9f95eda8c4d70a0ed6b2ad6d4"
+    }
+  },
+  {
+    "name": "v1.8.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.1",
+    "commit": {
+      "sha": "6551e9998ee31363574eaba5aa48ae6e4cbf32de",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/6551e9998ee31363574eaba5aa48ae6e4cbf32de"
+    }
+  },
+  {
+    "name": "v1.8.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.8.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.8.0",
+    "commit": {
+      "sha": "a4f3ace0fe47d016ba2c7cf6df9cd41891d171e6",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/a4f3ace0fe47d016ba2c7cf6df9cd41891d171e6"
+    }
+  },
+  {
+    "name": "v1.7.2",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.7.2",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.7.2",
+    "commit": {
+      "sha": "b412f7a71386ce9bb7c0a529d18b3c3df1edce71",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/b412f7a71386ce9bb7c0a529d18b3c3df1edce71"
+    }
+  },
+  {
+    "name": "v1.7.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.7.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.7.1",
+    "commit": {
+      "sha": "b264eda577a5d08651ffb63b147a5f6b92f90d9f",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/b264eda577a5d08651ffb63b147a5f6b92f90d9f"
+    }
+  },
+  {
+    "name": "v1.7.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.7.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.7.0",
+    "commit": {
+      "sha": "1eb5989db839e1a9a6b18ea8273dd849d69568ac",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/1eb5989db839e1a9a6b18ea8273dd849d69568ac"
+    }
+  },
+  {
+    "name": "v1.6.2",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.6.2",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.6.2",
+    "commit": {
+      "sha": "2026fbb5a854d928d92dc2ec11951eca4f601e38",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/2026fbb5a854d928d92dc2ec11951eca4f601e38"
+    }
+  },
+  {
+    "name": "v1.6.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.6.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.6.1",
+    "commit": {
+      "sha": "1ed75ec29034ac60ac27cfdd1d96d7d8942fa046",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/1ed75ec29034ac60ac27cfdd1d96d7d8942fa046"
+    }
+  },
+  {
+    "name": "v1.6.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.6.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.6.0",
+    "commit": {
+      "sha": "b21c8091da79657a57c7cef3804225282ef4df77",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/b21c8091da79657a57c7cef3804225282ef4df77"
+    }
+  },
+  {
+    "name": "v1.5.3",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.5.3",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.5.3",
+    "commit": {
+      "sha": "038a95545996ec8fa5417d104a7464a683ca9991",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/038a95545996ec8fa5417d104a7464a683ca9991"
+    }
+  },
+  {
+    "name": "v1.5.2",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.5.2",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.5.2",
+    "commit": {
+      "sha": "b9a607dd2d1c709545c152e30e4f8f664890b55e",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/b9a607dd2d1c709545c152e30e4f8f664890b55e"
+    }
+  },
+  {
+    "name": "v1.5.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.5.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.5.1",
+    "commit": {
+      "sha": "182bcaf7bd4f77493794d216ac37aa9935655943",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/182bcaf7bd4f77493794d216ac37aa9935655943"
+    }
+  },
+  {
+    "name": "v1.5.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.5.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.5.0",
+    "commit": {
+      "sha": "c516136a35386f120a0634ff16b79b8b847b047f",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/c516136a35386f120a0634ff16b79b8b847b047f"
+    }
+  },
+  {
+    "name": "v1.4.2",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.4.2",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.4.2",
+    "commit": {
+      "sha": "314812ba8dab733ce4259e4013d119b6c64b58e7",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/314812ba8dab733ce4259e4013d119b6c64b58e7"
+    }
+  },
+  {
+    "name": "v1.4.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.4.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.4.1",
+    "commit": {
+      "sha": "99575bff86a721fbeb019474a5945b5de913ff32",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/99575bff86a721fbeb019474a5945b5de913ff32"
+    }
+  },
+  {
+    "name": "v1.4.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.4.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.4.0",
+    "commit": {
+      "sha": "aaea00788aa627c0b06101b1bd10b31ae483a46d",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/aaea00788aa627c0b06101b1bd10b31ae483a46d"
+    }
+  },
+  {
+    "name": "v1.3.7.pre.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.3.7.pre.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.3.7.pre.1",
+    "commit": {
+      "sha": "48c7f76f7afbba4ea30cdfd4d22623f665dfec03",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/48c7f76f7afbba4ea30cdfd4d22623f665dfec03"
+    }
+  },
+  {
+    "name": "v1.3.7",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.3.7",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.3.7",
+    "commit": {
+      "sha": "8183e98b0e1f4687789cd2c72d6eedeaffd01082",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/8183e98b0e1f4687789cd2c72d6eedeaffd01082"
+    }
+  },
+  {
+    "name": "v1.3.6",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.3.6",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.3.6",
+    "commit": {
+      "sha": "e550a507b72c3d6640328224c62d709f6921776b",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/e550a507b72c3d6640328224c62d709f6921776b"
+    }
+  },
+  {
+    "name": "v1.3.5",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.3.5",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.3.5",
+    "commit": {
+      "sha": "aac3dd24cfdf1a226f98e1905854ce08adf35605",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/aac3dd24cfdf1a226f98e1905854ce08adf35605"
+    }
+  },
+  {
+    "name": "v1.3.4",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.3.4",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.3.4",
+    "commit": {
+      "sha": "a589234c69df2b67724ad5bbb88f7de68decd2fb",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/a589234c69df2b67724ad5bbb88f7de68decd2fb"
+    }
+  },
+  {
+    "name": "v1.3.3",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.3.3",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.3.3",
+    "commit": {
+      "sha": "ac344072de8caf362489595273d7f896330efbe0",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/ac344072de8caf362489595273d7f896330efbe0"
+    }
+  },
+  {
+    "name": "v1.3.2",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.3.2",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.3.2",
+    "commit": {
+      "sha": "c7f99299e5b718c98c8d91cc5a7ef3419ed2dc40",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/c7f99299e5b718c98c8d91cc5a7ef3419ed2dc40"
+    }
+  },
+  {
+    "name": "v1.3.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.3.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.3.1",
+    "commit": {
+      "sha": "86c23c117673e9c5be538fff81c7a1eb0a0ed816",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/86c23c117673e9c5be538fff81c7a1eb0a0ed816"
+    }
+  },
+  {
+    "name": "v1.3.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.3.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.3.0",
+    "commit": {
+      "sha": "4cd3f98602b67534f8d0803201d52f6ff3b07412",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/4cd3f98602b67534f8d0803201d52f6ff3b07412"
+    }
+  },
+  {
+    "name": "v1.2.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.2.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.2.0",
+    "commit": {
+      "sha": "b10cc0fa47280947630d2c4d3a0728e697dfb18b",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/b10cc0fa47280947630d2c4d3a0728e697dfb18b"
+    }
+  },
+  {
+    "name": "v1.1.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.1.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.1.1",
+    "commit": {
+      "sha": "58efb816214636ae702ec22819a65f4779b41497",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/58efb816214636ae702ec22819a65f4779b41497"
+    }
+  },
+  {
+    "name": "v1.1.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.1.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.1.0",
+    "commit": {
+      "sha": "a732340f9995e849bda49e6932f9a4d60796d9ab",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/a732340f9995e849bda49e6932f9a4d60796d9ab"
+    }
+  },
+  {
+    "name": "v1.0.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.0.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.0.1",
+    "commit": {
+      "sha": "f6a595e33271edbd99d21ab59097edf36026d6ad",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/f6a595e33271edbd99d21ab59097edf36026d6ad"
+    }
+  },
+  {
+    "name": "v1.0.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v1.0.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v1.0.0",
+    "commit": {
+      "sha": "729df04fd9a2d4c9af86926a60ed1d73c11aad9d",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/729df04fd9a2d4c9af86926a60ed1d73c11aad9d"
+    }
+  },
+  {
+    "name": "v0.9.5",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.9.5",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.9.5",
+    "commit": {
+      "sha": "6cc95c6392aaf6762effbd0536e66aa6e9ee70ac",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/6cc95c6392aaf6762effbd0536e66aa6e9ee70ac"
+    }
+  },
+  {
+    "name": "v0.9.4.7",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.9.4.7",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.9.4.7",
+    "commit": {
+      "sha": "001c3df85f4fcc879a2430591f85cba40bc08174",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/001c3df85f4fcc879a2430591f85cba40bc08174"
+    }
+  },
+  {
+    "name": "v0.9.4.6",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.9.4.6",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.9.4.6",
+    "commit": {
+      "sha": "b86a866da0ccc8b00e4df76f836dee37d5a33d21",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/b86a866da0ccc8b00e4df76f836dee37d5a33d21"
+    }
+  },
+  {
+    "name": "v0.9.4.5",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.9.4.5",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.9.4.5",
+    "commit": {
+      "sha": "6a87e71e1fefdc02a57044993258ef62d40f53d9",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/6a87e71e1fefdc02a57044993258ef62d40f53d9"
+    }
+  },
+  {
+    "name": "v0.9.4.4",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.9.4.4",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.9.4.4",
+    "commit": {
+      "sha": "48511608b74fe73456a4b7a40e1b2662004d1b10",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/48511608b74fe73456a4b7a40e1b2662004d1b10"
+    }
+  },
+  {
+    "name": "v0.9.4.2",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.9.4.2",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.9.4.2",
+    "commit": {
+      "sha": "d2f2398c6a01e2badd326e80c08143fd902753e1",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/d2f2398c6a01e2badd326e80c08143fd902753e1"
+    }
+  },
+  {
+    "name": "v0.9.4.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.9.4.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.9.4.1",
+    "commit": {
+      "sha": "0171b4125e2dae4981d2b86d80ba640b26a2de93",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/0171b4125e2dae4981d2b86d80ba640b26a2de93"
+    }
+  },
+  {
+    "name": "v0.9.4",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.9.4",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.9.4",
+    "commit": {
+      "sha": "65178a91eac72717003f65e5378a1d93f147f7cb",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/65178a91eac72717003f65e5378a1d93f147f7cb"
+    }
+  },
+  {
+    "name": "v0.9.3",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.9.3",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.9.3",
+    "commit": {
+      "sha": "db13f6cc4105ef76d34ffec90d17ca9b6fc56c4f",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/db13f6cc4105ef76d34ffec90d17ca9b6fc56c4f"
+    }
+  },
+  {
+    "name": "v0.9.2",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.9.2",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.9.2",
+    "commit": {
+      "sha": "ac25d5be678b1d2d0c2b85567ba5b95adefecabd",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/ac25d5be678b1d2d0c2b85567ba5b95adefecabd"
+    }
+  },
+  {
+    "name": "v0.9.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.9.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.9.1",
+    "commit": {
+      "sha": "371fbff73595961a3a71562b02e41422461a4df7",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/371fbff73595961a3a71562b02e41422461a4df7"
+    }
+  },
+  {
+    "name": "v0.9.0.8",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.9.0.8",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.9.0.8",
+    "commit": {
+      "sha": "57829ed6d6659aa7e54910ea01c89cf0778f4c7b",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/57829ed6d6659aa7e54910ea01c89cf0778f4c7b"
+    }
+  },
+  {
+    "name": "v0.9.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.9.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.9.0",
+    "commit": {
+      "sha": "f58731d9bfc43c8db711004d773fdc40a700a2af",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/f58731d9bfc43c8db711004d773fdc40a700a2af"
+    }
+  },
+  {
+    "name": "v0.8.40.8.4",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.8.40.8.4",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.8.40.8.4",
+    "commit": {
+      "sha": "675abb942c354ef3b7c037d833c8433617c3a840",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/675abb942c354ef3b7c037d833c8433617c3a840"
+    }
+  },
+  {
+    "name": "v0.8.11",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.8.11",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.8.11",
+    "commit": {
+      "sha": "070adecc56be8cce0290b3bc62474bff7c7dea76",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/070adecc56be8cce0290b3bc62474bff7c7dea76"
+    }
+  },
+  {
+    "name": "v0.8.10",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.8.10",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.8.10",
+    "commit": {
+      "sha": "856b9c86e6beca82b24649137e8f50a26ab8421a",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/856b9c86e6beca82b24649137e8f50a26ab8421a"
+    }
+  },
+  {
+    "name": "v0.8.9",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.8.9",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.8.9",
+    "commit": {
+      "sha": "807f17682e4c2ea50d57461636fd503bb3bd9dda",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/807f17682e4c2ea50d57461636fd503bb3bd9dda"
+    }
+  },
+  {
+    "name": "v0.8.8",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.8.8",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.8.8",
+    "commit": {
+      "sha": "c49df1b76ae0f77926a611930af94a76b04744f5",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/c49df1b76ae0f77926a611930af94a76b04744f5"
+    }
+  },
+  {
+    "name": "v0.8.7",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.8.7",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.8.7",
+    "commit": {
+      "sha": "7e417fd0f360ffa8b0d3f4290cba75f9a8569624",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/7e417fd0f360ffa8b0d3f4290cba75f9a8569624"
+    }
+  },
+  {
+    "name": "v0.8.6",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.8.6",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.8.6",
+    "commit": {
+      "sha": "0b70536857890009de33655a8eed029655a5a831",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/0b70536857890009de33655a8eed029655a5a831"
+    }
+  },
+  {
+    "name": "v0.8.5",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.8.5",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.8.5",
+    "commit": {
+      "sha": "1baf6054031c23e0d805c3dac14d7a4e833bb992",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/1baf6054031c23e0d805c3dac14d7a4e833bb992"
+    }
+  },
+  {
+    "name": "v0.8.3b",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.8.3b",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.8.3b",
+    "commit": {
+      "sha": "c30ffb36ac3ddeacccdf05a74798fc713a8c8d80",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/c30ffb36ac3ddeacccdf05a74798fc713a8c8d80"
+    }
+  },
+  {
+    "name": "v0.8.3a",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.8.3a",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.8.3a",
+    "commit": {
+      "sha": "0f13e8b59f7cca816a641cf4041746b42590d7cf",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/0f13e8b59f7cca816a641cf4041746b42590d7cf"
+    }
+  },
+  {
+    "name": "v0.8.3",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.8.3",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.8.3",
+    "commit": {
+      "sha": "a7c2a9cf5916289cf6b6957a2a6d56189977afc4",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/a7c2a9cf5916289cf6b6957a2a6d56189977afc4"
+    }
+  },
+  {
+    "name": "v0.8.2",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.8.2",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.8.2",
+    "commit": {
+      "sha": "43b47ab4f6c2f16afad245a865acd8ddb01e834d",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/43b47ab4f6c2f16afad245a865acd8ddb01e834d"
+    }
+  },
+  {
+    "name": "v0.8.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.8.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.8.1",
+    "commit": {
+      "sha": "537c313f879ba329b6becf6391bb8698dcbb5d55",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/537c313f879ba329b6becf6391bb8698dcbb5d55"
+    }
+  },
+  {
+    "name": "v0.8.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.8.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.8.0",
+    "commit": {
+      "sha": "f2dec8ad5178e72ecc267c5da811edc1dc68b471",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/f2dec8ad5178e72ecc267c5da811edc1dc68b471"
+    }
+  },
+  {
+    "name": "v0.7.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.7.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.7.0",
+    "commit": {
+      "sha": "5822b138b6ed7ff5d058c8d7d3ef36c8e4b290be",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/5822b138b6ed7ff5d058c8d7d3ef36c8e4b290be"
+    }
+  },
+  {
+    "name": "v0.6.1",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.6.1",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.6.1",
+    "commit": {
+      "sha": "b177a7ced5398a53436d908eedfd0588c90d4db0",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/b177a7ced5398a53436d908eedfd0588c90d4db0"
+    }
+  },
+  {
+    "name": "v0.6.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.6.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.6.0",
+    "commit": {
+      "sha": "e45943b950a14ca15eb72e451c21d8a7a1157280",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/e45943b950a14ca15eb72e451c21d8a7a1157280"
+    }
+  },
+  {
+    "name": "v0.5.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.5.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.5.0",
+    "commit": {
+      "sha": "e86b78cd7e1228e1d7cd34af658e353a9cc23327",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/e86b78cd7e1228e1d7cd34af658e353a9cc23327"
+    }
+  },
+  {
+    "name": "v0.4.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.4.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.4.0",
+    "commit": {
+      "sha": "83cc999488032c5fad5c431ae53044f5224ca5fb",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/83cc999488032c5fad5c431ae53044f5224ca5fb"
+    }
+  },
+  {
+    "name": "v0.3.0.pre",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.3.0.pre",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.3.0.pre",
+    "commit": {
+      "sha": "879bbd458c614ba4d4d9b2bc9d5011e8b8dedfe0",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/879bbd458c614ba4d4d9b2bc9d5011e8b8dedfe0"
+    }
+  },
+  {
+    "name": "v0.3.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.3.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.3.0",
+    "commit": {
+      "sha": "34a1b857a87244ffeec464051783b8d64c7bf969",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/34a1b857a87244ffeec464051783b8d64c7bf969"
+    }
+  },
+  {
+    "name": "v0.2.0",
+    "zipball_url": "https://api.github.com/repos/rubygems/rubygems/zipball/v0.2.0",
+    "tarball_url": "https://api.github.com/repos/rubygems/rubygems/tarball/v0.2.0",
+    "commit": {
+      "sha": "01f08b1f23e02c8f442b66495f3744544347c0ab",
+      "url": "https://api.github.com/repos/rubygems/rubygems/commits/01f08b1f23e02c8f442b66495f3744544347c0ab"
+    }
+  }
+]
