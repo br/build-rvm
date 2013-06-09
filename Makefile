@@ -1,7 +1,7 @@
 all: binary
 
 rvm:
-	@sudo -E libexec/build-rvm
+	@sudo -E libexec/build-rvm 1.18.21 1.8.25
 
 binary: rvm
 	@sudo -E libexec/build-rvm-ruby ree

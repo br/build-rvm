@@ -1,16 +1,10 @@
 #!/bin/bash
 
-ver_rvm="1.18.21"
-ver_rubygems="1.8.25"
+ver_rvm="$1"; shift
+ver_rubygems="$1"; shift
 
 shome=$(pwd)
 PATH="$shome/sbin:$PATH"
 
 export rvm_ignore_dotfiles=yes
 $shome/vendor/projects/rvm/rvm-installer --version $ver_rvm --without-gems="rvm rubygems-bundler"
-
-if [[ "$EUID" = 0 ]]; then
-  echo "rubygems_version=${ver_rubygems}" >> /usr/local/rvm/user/db
-else
-  echo "rubygems_version=${ver_rubygems}" >> ~/.rvm/user/db
-fi
