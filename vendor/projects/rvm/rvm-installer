@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+shome="$(pwd)" # TODO not accurate
+
 BASH_MIN_VERSION="3.2.25"
 if
   [[ -n "${BASH_VERSION:-}" &&
@@ -206,7 +208,11 @@ get_and_unpack()
   _url=$1
   _file=$2
 
-  __rvm_curl ${_url} -o ${rvm_archives_path}/${_file} ||
+  if [[ -f ${shome}/vendor/cache/rvm/${_file} ]]; then
+    rsync -ia ${shome}/vendor/cache/rvm/${_file} ${rvm_archives_path}/${_file}
+  fi
+
+  {  [[ -f ${shome}/vendor/cache/rvm/${_file} ]] || curl ${_url} -o ${rvm_archives_path}/${_file}; } ||
   {
     _return=$?
     case $_return in
