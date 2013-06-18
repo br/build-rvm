@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-shome="$(pwd)" # TODO not accurate
-
 BASH_MIN_VERSION="3.2.25"
 if
   [[ -n "${BASH_VERSION:-}" &&
@@ -91,13 +89,62 @@ Branches:
 "
 }
 
+## duplication marker 32fosjfjsznkjneuera48jae
+__rvm_curl_output_control()
+{
+  if
+    (( ${rvm_quiet_curl_flag:-0} == 1 ))
+  then
+    __flags+=( "--silent" "--show-error" )
+  elif
+    [[ " $*" =~ " -s" || " $*" =~ " --silent" ]]
+  then
+    # make sure --show-error is used with --silent
+    [[ " $*" =~ " -S" || " $*" =~ " -sS" || " $*" =~ " --show-error" ]] ||
+    {
+      __flags+=( "--show-error" )
+    }
+  fi
+}
+
+## duplication marker 32fosjfjsznkjneuera48jae
+# -S is automatically added to -s
+__rvm_curl()
+(
+  __rvm_which curl >/dev/null ||
+  {
+    rvm_error "RVM requires 'curl'. Install 'curl' first and try again."
+    return 200
+  }
+
+  typeset -a __flags
+  __flags=( --fail --location --max-redirs 10 )
+
+  if [[ -n "${rvm_proxy:-}" ]]
+  then __flags+=( --proxy "${rvm_proxy:-}" )
+  fi
+
+  __rvm_curl_output_control
+
+  unset curl
+  __rvm_debug_command \curl "${__flags[@]}" "$@" || return $?
+)
+
+__rvm_which(){   which "$@" || return $?; true; }
+__rvm_debug_command(){ "$@" || return $?; true; }
+rvm_is_a_shell_function()
+{
+  [[ -t 0 && -t 1 ]] || return $?
+  return ${rvm_is_not_a_shell_function:-0}
+}
+
 #Searches for highest available version for the given pattern
 # fetch_version 1.10. -> 1.10.3
 # fetch_version 1. -> 1.11.0
 # fetch_version "" -> 2.0.1
 fetch_version()
 {
-  curl -s https://api.github.com/repos/wayneeseguin/rvm/tags |
+  __rvm_curl -s https://api.github.com/repos/wayneeseguin/rvm/tags |
     sed -n '/"name": / {s/^.*".*": "\(.*\)".*$/\1/; p;}' |
     sort -t. -k 1,1n -k 2,2n -k 3,3n -k 4,4n -k 5,5n |
     GREP_OPTIONS="" \grep "^${1:-}" | tail -n 1
@@ -136,7 +183,7 @@ install_head()
   esac
   log "Downloading RVM from ${_repo} branch ${_branch}"
   get_and_unpack \
-    https://github.com/wayneeseguin/rvm/archive/${_branch}.tar.gz \
+    https://github.com/${_repo}/rvm/archive/${_branch}.tar.gz \
     ${_repo}-rvm-${_branch//\//_}.tgz
 }
 
@@ -159,34 +206,37 @@ get_and_unpack()
   _url=$1
   _file=$2
 
-  if [[ -f ${shome}/vendor/cache/rvm/${_file} ]]; then
-    rsync -ia ${shome}/vendor/cache/rvm/${_file} ${rvm_archives_path}/${_file}
-  fi
-
-  {  [[ -f ${shome}/vendor/cache/rvm/${_file} ]] || curl -L ${_url} -o ${rvm_archives_path}/${_file}; } ||
+  __rvm_curl ${_url} -o ${rvm_archives_path}/${_file} ||
   {
     _return=$?
     case $_return in
+      # duplication marker lfdgzkngdkjvnfjknkjvcnbjkncvjxbn
       (60)
         log "
-Could not download '${_url}'.
-  Make sure your certificates are up to date as described above.
-  To continue in insecure mode run 'echo insecure >> ~/.curlrc'.
+Could not download '${_url}', you can read more about it here:
+https://rvm.io/support/fixing-broken-ssl-certificates/
+To continue in insecure mode run 'echo insecure >> ~/.curlrc'.
 "
         ;;
+      # duplication marker lfdgzkngdkjvnfjknkjvcnbjkncvjxbn
       (77)
         log "
-It looks like you have old certificates, run:
-
-    curl -O http://curl.haxx.se/ca/cacert.pem && sudo mv cacert.pem /usr/local/etc/openssl/cacert.pem
-
-Replace /usr/local/etc/openssl/cacert.pem with the displayed CAfile.
+It looks like you have old certificates, you can read more about it here:
+https://rvm.io/support/fixing-broken-ssl-certificates/
+"
+        ;;
+      # duplication marker lfdgzkngdkjvnfjknkjvcnbjkncvjxbn
+      (141)
+        rvm_warn "
+Curl returned 141 - it is result of a segfault which means it's Curls fault.
+Try again and if it crashes more than a couple of times you either need to
+reinstall Curl or consult with your distribution manual and contact support.
 "
         ;;
       (*)
         log "
 Could not download '${_url}'.
-  curl returned status '$ret'.
+  curl returned status '$_return'.
 "
         ;;
     esac
@@ -219,7 +269,7 @@ fi
 
 # Variable initialization, remove trailing slashes if they exist on HOME
 true \
-  ${rvm_trace_flag:=0} ${rvm_debug_flag:=0} ${rvm_user_install_flag:=0}\
+  ${rvm_trace_flag:=0} ${rvm_debug_flag:=0}\
   ${rvm_ignore_rvmrc:=0} HOME="${HOME%%+(\/)}"
 
 
@@ -260,6 +310,20 @@ fi
 if [[ -z "${rvm_prefix}" ]]
 then
   rvm_prefix=$( dirname $rvm_path )
+fi
+
+# duplication marker kkdfkgnjfndgjkndfjkgnkfjdgn
+# guess rvm_user_install_flag if not set
+if
+  [[ -z "${rvm_user_install_flag}" ]]
+then
+  if
+    [[ "${rvm_prefix}" == "${HOME}" ]]
+  then
+    rvm_user_install_flag=1
+  else
+    rvm_user_install_flag=0
+  fi
 fi
 
 install_rubies=()
@@ -304,7 +368,7 @@ do
       fi
       ;;
 
-    --user-install|--ignore-dotfiles)
+    --user-install|--ignore-dotfiles|--quiet-curl)
       token=${token#--}
       token=${token//-/_}
       export "rvm_${token}_flag"=1
@@ -387,7 +451,6 @@ do
       ;;
 
     (--add-to-rvm-group)
-      flags+=( "$token" )
       export rvm_add_users_to_rvm_group="$1"
       shift
       ;;
@@ -477,7 +540,7 @@ case "${version}" in
 
   (latest-minor)
     echo "${version}" > "$rvm_path/RELEASE"
-    version="$(cat "$rvm_path/VERSION")"
+    version="$(\cat "$rvm_path/VERSION")"
     install_release $(fetch_version "${version%.*}") || exit $?
     ;;
 
