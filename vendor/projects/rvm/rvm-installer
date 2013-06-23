@@ -212,7 +212,7 @@ get_and_unpack()
     rsync -ia ${shome}/vendor/cache/rvm/${_file} ${rvm_archives_path}/${_file}
   fi
 
-  {  [[ -f ${shome}/vendor/cache/rvm/${_file} ]] || curl ${_url} -o ${rvm_archives_path}/${_file}; } ||
+  {  [[ -f ${shome}/vendor/cache/rvm/${_file} ]] || __rvm_curl ${_url} -o ${rvm_archives_path}/${_file}; } ||
   {
     _return=$?
     case $_return in
@@ -319,18 +319,10 @@ then
 fi
 
 # duplication marker kkdfkgnjfndgjkndfjkgnkfjdgn
-# guess rvm_user_install_flag if not set
-if
-  [[ -z "${rvm_user_install_flag}" ]]
-then
-  if
-    [[ "${rvm_prefix}" == "${HOME}" ]]
-  then
-    rvm_user_install_flag=1
-  else
-    rvm_user_install_flag=0
-  fi
-fi
+case "$rvm_path" in
+  ($HOME/*|/$USER*) rvm_user_install_flag=1 ;;
+  (*)               rvm_user_install_flag=0 ;;
+esac
 
 install_rubies=()
 install_gems=()
