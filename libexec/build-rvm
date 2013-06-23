@@ -7,4 +7,4 @@ PATH="$shome/sbin:$PATH"
 
 tmp_home="$(mktemp -d -t XXXXXXXXX)"
 env HOME="$tmp_home" $shome/vendor/projects/rvm/rvm-installer --version $ver_rvm --without-gems="rvm rubygems-bundler" --quiet-curl
-rm -f "$tmp_home"
+rm -rf "$tmp_home"
