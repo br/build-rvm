@@ -5,5 +5,4 @@ ver_rvm="$1"; shift
 shome=$(pwd)
 PATH="$shome/sbin:$PATH"
 
-export rvm_ignore_dotfiles=yes
-$shome/vendor/projects/rvm/rvm-installer --version $ver_rvm --without-gems="rvm rubygems-bundler" --ignore-dotfiles
+$shome/vendor/projects/rvm/rvm-installer --version $ver_rvm --without-gems="rvm rubygems-bundler" --ignore-dotfiles --quiet-curl
