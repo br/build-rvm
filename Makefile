@@ -3,7 +3,7 @@ all: binary
 rvm:
 	@libexec/build-rvm 1.20.13
 
-ree_binary:
+ree_binary: ree-1.8.7-2012.02.tar.bz2
 	@libexec/build-rvm-ruby ree "1.3.5"
 
 ruby_193_374_binary: ruby-1.9.3-p374.tar.bz2
