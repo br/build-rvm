@@ -9,4 +9,4 @@ PATH="$PATH:/usr/local/rvm/bin:$HOME/.rvm/bin"
 
 set +f; rvm mount --skip-gemsets -r ./*${nm_ruby}*.tar.bz2; set -f
 rvm-exec "$nm_ruby" gem list --local
-(cd $shome/vendor/cache/rvm && rvm-exec "$nm_ruby" gem install bundler -v "$ver_bundler")
+(cd $shome/vendor/cache/rvm && rvm-exec "$nm_ruby@global" gem install bundler -v "$ver_bundler")
