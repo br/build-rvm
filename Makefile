@@ -1,4 +1,4 @@
-RVM := 1.20.13
+RVM := 1.23.16
 BUNDLER := 1.3.5
 
 all: binary
