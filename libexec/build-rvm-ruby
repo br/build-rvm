@@ -6,7 +6,10 @@ ver_bundler="$1"; shift
 shome=$(pwd)
 PATH="$shome/sbin:$PATH"
 PATH="$PATH:/usr/local/rvm/bin:$HOME/.rvm/bin"
-
+echo "AAA"
 rvm install "$nm_ruby" --disable-binary --skip-gemsets --verify-downloads 2
+echo "BBB"
 rvm prepare "$nm_ruby" --install
+echo "CCC"
 rvm uninstall "$nm_ruby"
+echo "DDD"
